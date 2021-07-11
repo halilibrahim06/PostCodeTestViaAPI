@@ -5,8 +5,7 @@ TOOLS AND EXPLANATIONS
 The project has been prepared based on Cucumber BDD style.
 Maven build management tool is used in this project by Java (JDK8+) language.
 In the project created by using the Page Object Design Pattern, the data were collected under the pages package.
-Dependencies have been prepared under the pom.xml file. Webdriver Manager dependency was used from this project.
-The project was tried to be controlled from the centre using configuration.properties and ConfigurationReader.
+Dependencies have been prepared under the pom.xml file. The project was tried to be controlled from the centre using configuration.properties and ConfigurationReader.
 
 **Technology Stack**
 
