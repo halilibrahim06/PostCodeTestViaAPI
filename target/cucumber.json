@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-11T15:38:22.280Z",
+        "line": 10,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 656531000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1453143600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "should check postcodes if \"RG6 5QZ\" postcode is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RG6 5QZ\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.should_check_postcodes_if_postcode_is_correct(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      }
+    ],
+    "name": "Users should be able check post codes",
+    "description": "",
+    "id": "users-should-be-able-check-post-codes",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/apiTest.feature",
+    "tags": []
+  }
+]
