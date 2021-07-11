@@ -1,6 +1,6 @@
 Feature: Users should be able check post codes
 
-  @new
+  @001
   # The user can check if these postcodes are correct
   Scenario Outline: The user can check the postcodes
     Given the user sets the base Url for postcode endpoint

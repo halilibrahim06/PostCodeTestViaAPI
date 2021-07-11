@@ -1,7 +1,7 @@
 Feature: Users should be able check post codes
 
   @new
-  #Check if these postcodes are correct
+  # The user can check if these postcodes are correct
   Scenario Outline: The user can check the postcodes
     Given the user sets the base Url for postcode endpoint
     When the user calls GET request to check "<postcode>"

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.qdoctor.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.439 s <<< FAILURE! - in com.qdoctor.runners.CukesRunner
+The user can check the postcodes(Users should be able check post codes)  Time elapsed: 0.14 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+The user can check the postcodes(Users should be able check post codes)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+The user can check the postcodes(Users should be able check post codes)  Time elapsed: 0.157 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+

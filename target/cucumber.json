@@ -3,8 +3,8 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-11T15:38:22.280Z",
-        "line": 10,
+        "start_timestamp": "2021-07-11T23:21:24.686Z",
+        "line": 11,
         "name": "The user can check the postcodes",
         "description": "",
         "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;2",
@@ -13,31 +13,493 @@
         "steps": [
           {
             "result": {
-              "duration": 656531000,
+              "duration": 703220100,
               "status": "passed"
             },
             "line": 6,
-            "name": "the user sets the postcode endpoint",
+            "name": "the user sets the base Url for postcode endpoint",
             "match": {
-              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_postcode_endpoint()"
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1453143600,
+              "duration": 1328153000,
               "status": "passed"
             },
             "line": 7,
-            "name": "should check postcodes if \"RG6 5QZ\" postcode is correct",
+            "name": "the user calls GET request to check \"EN1 2RE\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"RG6 5QZ\"",
-                  "offset": 26
+                  "val": "\"EN1 2RE\"",
+                  "offset": 36
                 }
               ],
-              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.should_check_postcodes_if_postcode_is_correct(java.lang.String)"
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:26.811Z",
+        "line": 12,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125051700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"OX49 5NU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OX49 5NU\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:26.936Z",
+        "line": 13,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172000100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"M32 0JG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M32 0JG\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:27.108Z",
+        "line": 14,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156310200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"NE30 1DP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NE30 1DP\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:27.280Z",
+        "line": 15,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124998400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"AB8 1RA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AB8 1RA\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200(PostcodeApiTestStepDefs.java:24)\r\n\tat ✽.the response status should be 200(file:///C:/Users/Lenovo/IdeaProjects/QDoctor/src/test/resources/features/apiTest.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:27.405Z",
+        "line": 16,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124991100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"DL8 1RA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DL8 1RA\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200(PostcodeApiTestStepDefs.java:24)\r\n\tat ✽.the response status should be 200(file:///C:/Users/Lenovo/IdeaProjects/QDoctor/src/test/resources/features/apiTest.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:27.530Z",
+        "line": 17,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187477200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"AB42 3FB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AB42 3FB\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:27.733Z",
+        "line": 18,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156238400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"EC2M 2PF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EC2M 2PF\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T23:21:27.889Z",
+        "line": 19,
+        "name": "The user can check the postcodes",
+        "description": "",
+        "id": "users-should-be-able-check-post-codes;the-user-can-check-the-postcodes;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sets the base Url for postcode endpoint",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_sets_the_base_url_for_postcode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124964500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user calls GET request to check \"EX2M 2PF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EX2M 2PF\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_user_calls_get_request_to_check_postcode(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200(PostcodeApiTestStepDefs.java:24)\r\n\tat ✽.the response status should be 200(file:///C:/Users/Lenovo/IdeaProjects/QDoctor/src/test/resources/features/apiTest.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "com.qdoctor.stepDefs.PostcodeApiTestStepDefs.the_response_status_should_be_200()"
             },
             "keyword": "Then "
           }
